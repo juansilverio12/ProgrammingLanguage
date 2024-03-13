@@ -7,7 +7,7 @@ public class Main {
         Scanner in = new Scanner(System.in);
         System.out.println("Digite um número:");
         number = in.nextInt();
-        result = Math.pow(number,2);
+        result = number * number;
         System.out.println("O quadrado do número digitado é:" + result);
 
     }

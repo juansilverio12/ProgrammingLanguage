@@ -8,7 +8,7 @@ public class Main {
         System.out.println("Digite a temperatura em graus Celsius:");
         celsius = in.nextDouble();
 
-        fahrenheit = celsius * 9 / 5 + 32;
+        fahrenheit = (celsius * 9) / 5 + 32;
 
         System.out.println("A temperatura em graus Fahrenheit é: " + fahrenheit);
     }

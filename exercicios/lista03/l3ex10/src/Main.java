@@ -2,23 +2,21 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
+       // int[] numeros = {1, 9, 6, 7};
+        int [] numeros = new int [5];
 
-        System.out.print("Digite o valor de n para gerar a sequência de Fibonacci até o enésimo termo: ");
-        int n = scanner.nextInt();
+        numeros [0]=1;
+        numeros [1]=2;
+        numeros [2]=3;
+        numeros [3]=4;
+        numeros [4]=5;
 
-        System.out.println("Sequência de Fibonacci até o " + n + "º termo:");
-        int anterior = 0;
-        int atual = 1;
-        System.out.print(anterior + ", " + atual);
+        System.out.println("informe o primeiro numero" + numeros);
+        System.out.println("informe o primeiro numero" + numeros);
+        System.out.println("informe o primeiro numero" + numeros);
+        System.out.println("informe o primeiro numero" + numeros);
+        System.out.println("informe o primeiro numero" + numeros);
 
-        for (int i = 2; i < n; i++) {
-            int proximo = anterior + atual;
-            System.out.print(", " + proximo);
-            anterior = atual;
-            atual = proximo;
-        }
-
-        System.out.println();
     }
 }

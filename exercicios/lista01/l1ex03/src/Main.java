@@ -7,7 +7,7 @@ public class Main {
         Scanner in = new Scanner(System.in);
         System.out.println("Digite um número: ");
         number = in.nextInt();
-        result = Math.pow(number,2/5);
+        result = number / 5;
         System.out.println("A quinta parte desse número é:" + result);
     }
 }

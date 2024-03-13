@@ -2,18 +2,18 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner in = new Scanner(System.in);
 
         int maior, menor;
 
         System.out.print("Digite o primeiro número: ");
-        int numero = scanner.nextInt();
+        int numero = in.nextInt();
         maior = numero;
         menor = numero;
 
         for (int i = 1; i < 5; i++) {
             System.out.print("Digite o próximo número: ");
-            numero = scanner.nextInt();
+            numero = in.nextInt();
 
             if (numero > maior) {
                 maior = numero;
